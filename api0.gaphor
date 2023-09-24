@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gaphor xmlns="http://gaphor.sourceforge.net/model" version="3.0" gaphor-version="2.21.0">
+<StyleSheet id="58d6989a-66f8-11ec-b4c8-0456e5e540ed"/>
+<Package id="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed">
+<name>
+<val>New model</val>
+</name>
+<ownedDiagram>
+<reflist>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</reflist>
+</ownedDiagram>
+<ownedType>
+<reflist>
+<ref refid="9bbc1200-5a8a-11ee-bdc1-0f1ff8f03316"/>
+</reflist>
+</ownedType>
+</Package>
+<Diagram id="58d6c536-66f8-11ec-b4c8-0456e5e540ed">
+<element>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</element>
+<name>
+<val>New diagram</val>
+</name>
+<ownedPresentation>
+<reflist>
+<ref refid="9bbca279-5a8a-11ee-a24f-0f1ff8f03316"/>
+</reflist>
+</ownedPresentation>
+</Diagram>
+<Class id="9bbc1200-5a8a-11ee-bdc1-0f1ff8f03316">
+<name>
+<val>Ticket</val>
+</name>
+<ownedAttribute>
+<reflist>
+<ref refid="a2db6022-5a8a-11ee-b7fd-0f1ff8f03316"/>
+<ref refid="a880a4b3-5a8b-11ee-bd19-0f1ff8f03316"/>
+</reflist>
+</ownedAttribute>
+<package>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="9bbca279-5a8a-11ee-a24f-0f1ff8f03316"/>
+</reflist>
+</presentation>
+</Class>
+<ClassItem id="9bbca279-5a8a-11ee-a24f-0f1ff8f03316">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 152.73829650878906, 156.40234375)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>200.43748474121094</val>
+</width>
+<height>
+<val>223.8046875</val>
+</height>
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<subject>
+<ref refid="9bbc1200-5a8a-11ee-bdc1-0f1ff8f03316"/>
+</subject>
+</ClassItem>
+<Property id="a2db6022-5a8a-11ee-b7fd-0f1ff8f03316">
+<class_>
+<ref refid="9bbc1200-5a8a-11ee-bdc1-0f1ff8f03316"/>
+</class_>
+<name>
+<val>issueDate</val>
+</name>
+</Property>
+<Property id="a880a4b3-5a8b-11ee-bd19-0f1ff8f03316">
+<class_>
+<ref refid="9bbc1200-5a8a-11ee-bdc1-0f1ff8f03316"/>
+</class_>
+<name>
+<val>issuer</val>
+</name>
+</Property>
+</gaphor>
